@@ -1,19 +1,45 @@
-body {
+header {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background-color: lightblue;
+}
+h1 {
+  display: inline;
+}
+#menu {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
 }
 #menu ul {
   list-style: none;
 }
-    #menu ul li {
-    background-color:blue
-    border:solid 1px white;
-    width:120px;
-    height:35px;
-    line-height:35px;
-    text-align:center;
-    float:right;
-    }
-        #menu ul li a:hover {
-            background-color:blue;
-            color:white;
+#menu ul li {
+  color: black;
+  /* border: solid 1px white; */
+  border-bottom: solid 5px blue;
+  width: 120px;
+  height: 35px;
+  line-height: 35px;
+  text-align: center;
+  float: right;
+}
+#menu ul li a:hover {
+  background-color: blue;
+  color: white;
+}
 
-        }
+/* Portfolio section */
+.grid-container {
+  display: grid;
+  grid-template-rows: 50% 25% 25%;
+  grid-template-columns: 50% 50%;
+}
+.grid-item-1 {
+  grid-column: span 2;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
