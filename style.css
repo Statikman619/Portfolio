@@ -3,7 +3,7 @@ header {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-between;
-  background-color: lightblue;
+  background-color: navy;
 }
 h1 {
   display: inline;
@@ -50,13 +50,17 @@ h1 {
   height: 150px;
   margin: 0;
   text-align: right;
+  position: relative;
+  background-image: url(background.jpg);
 }
 about-me>p: {
   margin: 0;
 }
 .cool {
-  margin: 0;
-  position: relative;
-  left: -50px;
-  top: 100px;
+  position: absolute;
+  font-size: 30px;
+  background-color: lightgrey;
+  right: 30px;
+  bottom: 30px;
+  margin: 0px;
 }
