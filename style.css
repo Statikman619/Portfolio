@@ -43,3 +43,20 @@ h1 {
   grid-row-start: 1;
   grid-row-end: 2;
 }
+
+#about-me {
+  background-color: red;
+  color: white;
+  height: 150px;
+  margin: 0;
+  text-align: right;
+}
+about-me>p: {
+  margin: 0;
+}
+.cool {
+  margin: 0;
+  position: relative;
+  left: -50px;
+  top: 100px;
+}
