@@ -112,31 +112,37 @@ body {
 }
 .dragon {
   border: solid;
-  color: lightblue;
   line-height: 15;
   margin: 20px;
+  text-align: bottom;
+  color: black;
+  background-image: url(waves.jpg);
 }
 .wall {
   border: solid;
-  color: lightblue;
+  color: black;
   line-height: 5;
   margin: 20px;
+  background-image: url(LED-Wall.jpg);
 }
 .calculator {
   border: solid;
-  color: lightblue;
+  color: black;
   line-height: 5;
   margin: 20px;
+  background-image: url(Calculator.jpg);
 }
 .puzzle {
   border: solid;
-  color: lightblue;
+  color: black;
   line-height: 5;
   margin: 20px;
+  background-image: url(puzzle.jpg);
 }
 .buddy {
   border: solid;
-  color: lightblue;
+  color: black;
   line-height: 5;
   margin: 20px;
+  background-image: url(Run.jpg);
 }
