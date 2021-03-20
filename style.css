@@ -97,3 +97,46 @@ body {
 .gohan {
   width: 70%;
 }
+.middle {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  flex-basis: 100%;
+  justify-content: space-between;
+}
+.middle > div {
+  width: 50%;
+}
+.middle .dragon {
+  width: 100%;
+}
+.dragon {
+  border: solid;
+  color: lightblue;
+  line-height: 15;
+  margin: 20px;
+}
+.wall {
+  border: solid;
+  color: lightblue;
+  line-height: 5;
+  margin: 20px;
+}
+.calculator {
+  border: solid;
+  color: lightblue;
+  line-height: 5;
+  margin: 20px;
+}
+.puzzle {
+  border: solid;
+  color: lightblue;
+  line-height: 5;
+  margin: 20px;
+}
+.buddy {
+  border: solid;
+  color: lightblue;
+  line-height: 5;
+  margin: 20px;
+}
