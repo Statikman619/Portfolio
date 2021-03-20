@@ -78,6 +78,7 @@ h1 {
   border-right: solid 5px blue;
   text-align: right;
   margin: 0;
+  min-width: 188px;
 }
 body {
   background-color: rgb(229, 234, 236);
