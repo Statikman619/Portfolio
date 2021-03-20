@@ -86,4 +86,14 @@ body {
   margin: 0;
   padding: 15px;
   min-width: 188px;
+  display: flex;
+}
+.gohan > ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  /* width: 100%; */
+}
+.gohan {
+  width: 70%;
 }
