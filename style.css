@@ -28,7 +28,7 @@ h1 {
   float: right;
 }
 #menu ul li a:hover {
-  background-color: blue;
+  background-color: red;
   color: white;
 }
 
@@ -45,7 +45,6 @@ h1 {
 }
 
 #about-me {
-  background-color: red;
   color: white;
   height: 150px;
   margin: 0;
@@ -53,14 +52,26 @@ h1 {
   position: relative;
   background-image: url(background.jpg);
 }
-about-me>p: {
+#about-me>p: {
   margin: 0;
 }
 .cool {
   position: absolute;
   font-size: 30px;
-  background-color: lightgrey;
+  background-color: lightblue;
   right: 30px;
   bottom: 30px;
   margin: 0px;
+}
+.about-me {
+  display: flex;
+  font-size: 30px;
+  padding: 60px;
+  border: 60px;
+}
+.vegeta {
+  font-size: 15px;
+}
+.goku {
+  border: 10px;
 }
