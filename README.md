@@ -1,3 +1,6 @@
+Screenshot for my README
+![Screenshot 2021-03-20 175523](https://user-images.githubusercontent.com/73040685/111890719-77f5ae00-89a9-11eb-9117-c20da10509d1.png)
+
 # 02 Advanced CSS: Portfolio
 
 ## Your Task
