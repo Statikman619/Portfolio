@@ -6,7 +6,8 @@ header {
   background-color: navy;
 }
 h1 {
-  display: inline;
+  display: block;
+  background-color: lightblue;
 }
 #menu {
   display: flex;
@@ -99,49 +100,48 @@ body {
 }
 .middle {
   display: flex;
-  flex-wrap: wrap;
-  width: 100%;
-  flex-basis: 100%;
-  justify-content: space-between;
+  flex-flow: wrap;
+  width: 80%;
 }
 .middle > div {
   width: 50%;
 }
 .middle .dragon {
-  width: 100%;
+  width: 80%;
 }
 .dragon {
   border: solid;
   line-height: 15;
   margin: 20px;
+  width: 1000px;
   text-align: bottom;
-  color: black;
+  color: lightblue;
   background-image: url(waves.jpg);
 }
 .wall {
   border: solid;
-  color: black;
+  color: lightblue;
   line-height: 5;
   margin: 20px;
   background-image: url(LED-Wall.jpg);
 }
 .calculator {
   border: solid;
-  color: black;
+  color: lightblue;
   line-height: 5;
   margin: 20px;
   background-image: url(Calculator.jpg);
 }
 .puzzle {
   border: solid;
-  color: black;
+  color: lightblue;
   line-height: 5;
   margin: 20px;
   background-image: url(puzzle.jpg);
 }
 .buddy {
   border: solid;
-  color: black;
+  color: light;
   line-height: 5;
   margin: 20px;
   background-image: url(Run.jpg);
