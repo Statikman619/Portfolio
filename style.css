@@ -117,6 +117,7 @@ body {
   text-align: bottom;
   color: lightblue;
   background-image: url(waves.jpg);
+  alt= Photo of waves
 }
 .wall {
   border: solid;
@@ -124,6 +125,7 @@ body {
   line-height: 5;
   margin: 20px;
   background-image: url(LED-Wall.jpg);
+  alt= Photo of LED lights
 }
 .calculator {
   border: solid;
@@ -131,6 +133,7 @@ body {
   line-height: 5;
   margin: 20px;
   background-image: url(Calculator.jpg);
+  alt= Photo of a calculator
 }
 .puzzle {
   border: solid;
@@ -138,6 +141,7 @@ body {
   line-height: 5;
   margin: 20px;
   background-image: url(puzzle.jpg);
+  alt= Photo of a puzzle.
 }
 .buddy {
   border: solid;
@@ -145,4 +149,5 @@ body {
   line-height: 5;
   margin: 20px;
   background-image: url(Run.jpg);
+  alt= Photo of someone running
 }
