@@ -1,0 +1,161 @@
+header {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background-color: navy;
+}
+h1 {
+  display: block;
+  background-color: lightblue;
+  margin-left: 15px;
+  padding:5px;
+}
+#menu {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+#menu ul {
+  list-style: none;
+}
+#menu ul li {
+  color: black;
+  border-bottom: solid 5px blue;
+  width: 120px;
+  height: 35px;
+  line-height: 35px;
+  text-align: center;
+  float: right;
+}
+#menu ul li a:hover {
+  background-color: red;
+  color: white;
+}
+
+/* Portfolio section */
+.grid-container {
+  display: grid;
+  grid-template-rows: 50% 25% 25%;
+  grid-template-columns: 50% 50%;
+}
+.grid-item-1 {
+  /* grid-column: span 2;
+  grid-row-start: 1;
+  grid-row-end: 2; */
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  gap: 10px;
+  margin: 20px 0;
+}
+
+#about-me {
+  color: white;
+  height: 150px;
+  margin: 0;
+  text-align: right;
+  position: relative;
+  background-image: url(background.jpg);
+}
+#about-me>p: {
+  margin: 0;
+}
+.cool {
+  position: absolute;
+  font-size: 30px;
+  background-color: lightblue;
+  color: black;
+  right: 30px;
+  bottom: 30px;
+  margin: 0px;
+}
+.about-me {
+  display: flex;
+  font-size: 30px;
+  padding: 30px;
+  border: 60px;
+  color:black
+}
+.vegeta {
+  font-size: 15px;
+  margin-left: 15px;
+  padding-top: 0%;
+}
+.goku {
+  border-right: solid 5px blue;
+  text-align: right;
+  margin: 0;
+}
+body {
+  background-color: rgb(229, 234, 236);
+}
+.goku > h2 {
+  margin: 0;
+  padding: 15px;
+  min-width: 188px;
+  display: flex;
+}
+.gohan > ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  /* width: 100%; */
+}
+.gohan {
+  width: 70%;
+}
+.middle {
+  display: flex;
+  flex-flow: wrap;
+  width: 80%;
+}
+.middle > div {
+  width: 50%;
+}
+.middle .dragon {
+  width: 80%;
+}
+.dragon {
+  border: solid;
+  line-height: 15;
+  margin: 20px;
+  width: 1000px;
+  text-align: bottom;
+  color: lightblue;
+  background-image: url(waves.jpg);
+  alt= Photo of waves
+}
+.wall {
+  border: solid;
+  color: lightblue;
+  line-height: 5;
+  margin: 20px;
+  padding: 50px;
+  background-image: url(LED-Wall.jpg);
+ 
+}
+.calculator {
+  border: solid;
+  color: lightblue;
+  line-height: 5;
+  margin: 20px;
+  padding: 50px;
+  background-image: url(Calculator.jpg);
+}
+.puzzle {
+  border: solid;
+  color: lightblue;
+  line-height: 5;
+  margin: 20px;
+  padding: 50px;
+  background-image: url(puzzle.jpg);
+}
+.buddy {
+  border: solid;
+  color: lightblue;
+  line-height: 5;
+  margin: 20px;
+  padding: 50px;
+  background-image: url(Run.jpg);
+}
