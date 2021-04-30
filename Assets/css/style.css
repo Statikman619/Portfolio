@@ -119,38 +119,38 @@ body {
 }
 .password-generator {
   border: solid;
-  color: lightblue;
+  color: black;
   line-height: 5;
   padding: 50px;
   background-image: url(../Images/Password-Generator.jpg);
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
 }
 .day-planner {
   border: solid;
-  color: lightblue;
+  color: black;
   line-height: 5;
   padding: 50px;
   background-image: url(../Images/Day-Planner.jpg);
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
 }
 .weather-dashboard {
   border: solid;
-  color: lightblue;
+  color: black;
   line-height: 5;
   padding: 50px;
   background-image: url(../Images/Open-Weather-Map.jpg);
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
 }
 .code-quiz {
   border: solid;
-  color: lightblue;
+  color: black;
   line-height: 5;
   padding: 50px;
   background-image: url(../Images/Code-Quiz.png);
-  background-size: cover;
+  background-size: contain;
   background-repeat: no-repeat;
 }
 .project-text {
