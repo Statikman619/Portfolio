@@ -9,7 +9,7 @@ h1 {
   display: block;
   background-color: lightblue;
   margin-left: 15px;
-  padding:5px;
+  padding: 5px;
 }
 #menu {
   display: flex;
@@ -41,48 +41,37 @@ h1 {
   grid-template-columns: 50% 50%;
 }
 .grid-item-1 {
-  /* grid-column: span 2;
-  grid-row-start: 1;
-  grid-row-end: 2; */
   display: grid;
   grid-template-columns: repeat(2, auto);
   gap: 10px;
   margin: 20px 0;
 }
-
-#about-me {
-  color: white;
-  height: 150px;
-  margin: 0;
-  text-align: right;
-  position: relative;
-  background-image: url(background.jpg);
-}
-#about-me>p: {
+#about-me > p {
   margin: 0;
 }
-.cool {
-  position: absolute;
-  font-size: 30px;
-  background-color: lightblue;
-  color: black;
-  right: 30px;
-  bottom: 30px;
-  margin: 0px;
+.avatar {
+  color: lightblue;
+  padding: 50px;
+  width: 10%;
+  margin-left: 400px;
+  height: 20%;
+  background-image: url(../Images/Mike.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
 }
-.about-me {
+section {
   display: flex;
   font-size: 30px;
   padding: 30px;
   border: 60px;
-  color:black
+  color: black;
 }
-.vegeta {
+.summary {
   font-size: 15px;
   margin-left: 15px;
   padding-top: 0%;
 }
-.goku {
+.information {
   border-right: solid 5px blue;
   text-align: right;
   margin: 0;
@@ -90,72 +79,81 @@ h1 {
 body {
   background-color: rgb(229, 234, 236);
 }
-.goku > h2 {
+.information > h2 {
   margin: 0;
   padding: 15px;
   min-width: 188px;
   display: flex;
 }
-.gohan > ul {
+.media > ul {
   list-style-type: none;
   display: flex;
   justify-content: space-between;
   /* width: 100%; */
 }
-.gohan {
+.media {
   width: 70%;
 }
 .middle {
-  display: flex;
-  flex-flow: wrap;
-  width: 80%;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 50% 50%;
+  margin-left: 20px;
 }
 .middle > div {
-  width: 50%;
+  width: 76%;
 }
-.middle .dragon {
+.middle .work {
   width: 80%;
 }
-.dragon {
+.work {
   border: solid;
   line-height: 15;
   margin: 20px;
   width: 1000px;
   text-align: bottom;
   color: lightblue;
-  background-image: url(waves.jpg);
-  alt= Photo of waves
+  background-image: url(../Images/Movie-Buffs.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
-.wall {
+.password-generator {
   border: solid;
   color: lightblue;
   line-height: 5;
-  margin: 20px;
   padding: 50px;
-  background-image: url(LED-Wall.jpg);
- 
+  background-image: url(../Images/Password-Generator.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
-.calculator {
+.day-planner {
   border: solid;
   color: lightblue;
   line-height: 5;
-  margin: 20px;
   padding: 50px;
-  background-image: url(Calculator.jpg);
+  background-image: url(../Images/Day-Planner.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
-.puzzle {
+.weather-dashboard {
   border: solid;
   color: lightblue;
   line-height: 5;
-  margin: 20px;
   padding: 50px;
-  background-image: url(puzzle.jpg);
+  background-image: url(../Images/Open-Weather-Map.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
 }
-.buddy {
+.code-quiz {
   border: solid;
   color: lightblue;
   line-height: 5;
-  margin: 20px;
   padding: 50px;
-  background-image: url(Run.jpg);
+  background-image: url(../Images/Code-Quiz.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.project-text {
+  margin-top: 80px;
+  margin-bottom: 0px;
 }
