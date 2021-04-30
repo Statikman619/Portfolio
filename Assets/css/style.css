@@ -29,6 +29,7 @@ h1 {
   float: right;
   margin-right: 10px;
   font-size: 25px;
+  color: black;
 }
 #menu ul li a:hover {
   background-color: red;
@@ -102,7 +103,7 @@ body {
   margin-left: 20px;
 }
 .middle > div {
-  width: 76%;
+  width: 75%;
 }
 .middle .work {
   width: 80%;
@@ -141,6 +142,7 @@ body {
   color: black;
   line-height: 5;
   padding: 50px;
+  margin-top: 20px;
   background-image: url(../Images/Open-Weather-Map.jpg);
   background-size: contain;
   background-repeat: no-repeat;
@@ -150,6 +152,7 @@ body {
   color: black;
   line-height: 5;
   padding: 50px;
+  margin-top: 20px;
   background-image: url(../Images/Code-Quiz.png);
   background-size: contain;
   background-repeat: no-repeat;
