@@ -23,8 +23,6 @@ THEN I am taken to that deployed application
 WHEN I resize the page or view the site on various screens and devices
 THEN I am presented with a responsive layout that adapts to my viewport
 
-```
-
 *HTML
 
 *Search form elements and buttons
@@ -35,8 +33,4 @@ THEN I am presented with a responsive layout that adapts to my viewport
 *CSS styling
 
 
-
-![Screenshot 2021-05-01 095814](https://user-images.githubusercontent.com/73040685/116790204-f2fdba00-aa67-11eb-872e-bea9eb38478c.png)
-
-
-```
+![Screenshot 2021-05-01 095814](https://user-images.githubusercontent.com/73040685/116790236-0a3ca780-aa68-11eb-97ec-7e78b860a066.png)
