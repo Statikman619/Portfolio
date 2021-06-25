@@ -151,13 +151,33 @@ body {
   background-size: contain;
   background-repeat: no-repeat;
 }
-.code-quiz {
+.note-taker {
   border: solid;
   color: black;
   line-height: 5;
   padding: 50px;
   margin-top: 20px;
-  background-image: url(../Images/Code-Quiz.png);
+  background-image: url(../Images/Note-Taker.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.movie-buffs {
+  border: solid;
+  color: black;
+  line-height: 5;
+  padding: 50px;
+  margin-top: 20px;
+  background-image: url(../Images/Movie-Buffs.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.meals-easy {
+  border: solid;
+  color: black;
+  line-height: 5;
+  padding: 50px;
+  margin-top: 20px;
+  background-image: url(../Images);
   background-size: contain;
   background-repeat: no-repeat;
 }
